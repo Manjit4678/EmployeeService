@@ -24,7 +24,7 @@ public class EmployeeRepository {
         return new Employee(
                 rs.getInt("id"),
                 rs.getString("name"),
-                rs.getString("department")
+                rs.getString("role")  // changed from "department" to "role"
         );
     }
 }
